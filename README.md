@@ -11,6 +11,7 @@ modifications too.
  
 To compile the bbcoverage tool, place the bbcoverage directory inside
 DynamoRIO distribution directory. Run:
+
 	*  cmake . (create makefiles)
 	*  make    (build the tool)
  
