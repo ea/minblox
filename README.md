@@ -11,8 +11,8 @@ modifications too.
  
 To compile the bbcoverage tool, place the bbcoverage directory inside
 DynamoRIO distribution directory. Run:
-	* # cmake . (create makefiles)
-	* # make    (build the tool)
+	*  cmake . (create makefiles)
+	*  make    (build the tool)
  
 Copy the built tool from bbcoverage/bin directory to minblox directory.
 If needed, adjust DR_RUN_PATH and BBCOVERAGE_PATH variables in minblox.py
