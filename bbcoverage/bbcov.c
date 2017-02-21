@@ -5,7 +5,7 @@
 
 #include "dr_api.h"
 
-file_t fpCoverageLog = NULL;
+file_t fpCoverageLog = INVALID_FILE;
 
 static void event_exit(void);
 static dr_emit_flags_t event_basic_block(void *drcontext, void *tag, instrlist_t *bb,
